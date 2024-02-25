@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Jomhuria&amp;display=swap" rel="stylesheet">
+  <title>The Carnival Mystery!!</title>
+  <meta charset="utf-8">
+<script src="p5.play.js"></script>
+      <script src="p5.sound.min.js"></script>
+  
+      <script src="p5.dom.min.js"></script>
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+<script>     
+  var firebaseConfig = {
+        apiKey: "AIzaSyDBcFmI3RivcQcMZvZUI9YxuL14NIzIjNc",
+        authDomain: "carracinggame-e5bb1.firebaseapp.com",
+        databaseURL: "https://carracinggame-e5bb1-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "carracinggame-e5bb1",
+        storageBucket: "carracinggame-e5bb1.appspot.com",
+        messagingSenderId: "799533120835",
+        appId: "1:799533120835:web:c13ad2e4026a18e22583f6"
+      };
+      
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      </script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    
+       <!-- Sweet Alert-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+</head>
+<body background="Car Battle (2).gif">
+  <script src="sketch.js"></script>
+  <button id="hi" onclick="play();"></button>
+<button id="instructions" onclick="instructions();"></button>
+<button id="info" onclick="info();"></button>
+  </body>
